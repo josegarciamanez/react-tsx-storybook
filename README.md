@@ -1,18 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instalation
+## Installation
 
-### `create-react-app hello-tsx-storybook --typescript`
+`create-react-app hello-tsx-storybook --typescript`
 
-### `yarn add --dev @storybook/react @types/storybook__react`
+`yarn add --dev @storybook/react @types/storybook__react`
 
-### `yarn add --dev babel-loader @babel/core`
+`yarn add --dev babel-loader @babel/core`
 
-### `yarn add --dev awesome-typescript-loader react-docgen-typescript-loader react-docgen-typescript-webpack-plugin`
+`yarn add --dev awesome-typescript-loader react-docgen-typescript-loader react-docgen-typescript-webpack-plugin`
 
-### `mkdir .storybook`
+`mkdir .storybook`
 
-### `cd .storybook`
+`cd .storybook`
 
 `touch addons.js config.js tsconfig.json webpack.config.js`
 
@@ -23,7 +23,7 @@ For a basic Storybook configuration, the only thing you need to do is tell Story
 
 Note, that, prior to this step, components directory inside src did not exist. You will have to create that manually. The above snippet of code is to create a pattern such that all the stories match a particular glob. code is Next file that needs to be configured is tsconfig.json inside the storybook directory. This file is going to be responsible to compile stories from TypeScript to JavaScript. Add the following to this file.
 
-### `{
+`{
 
     "compilerOptions": {
     	"baseUrl": "./",
